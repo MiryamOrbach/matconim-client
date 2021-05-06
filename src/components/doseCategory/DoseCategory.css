@@ -1,0 +1,11 @@
+.statusDose {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+h1 {
+  text-align: center;
+}
+.price {
+  margin-right: 50%;
+  font-weight: bold;
+}

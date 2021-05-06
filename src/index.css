@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 2 / 2 / 5 / 4;
+}
+.div2 {
+  grid-area: 2 / 10 / 3 / 11;
+}
+.div3 {
+  grid-area: 2 / 11 / 3 / 12;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+body {
+  text-align: right;
+  direction: rtl;
+}
+.ui.form .field .ui.input input {
+  text-align: right;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

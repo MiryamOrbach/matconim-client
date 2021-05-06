@@ -1,0 +1,37 @@
+.ui.form {
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 45vw;
+}
+.ui.form .fields>.field:first-child {
+    
+    border: solid;
+    border-color: purple;
+    box-shadow: none;
+}
+.inputs {
+    /* border-radius: 1vw; */
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    border: black 2px solid;
+    background-color: #f3cdff;
+}
+.ui.checkbox label:before {
+    position: absolute;
+    top: 0;
+    left: 148px;
+    width: 17px;
+    height: 17px;
+    content: '';
+    background: #fff;
+    border-radius: .21428571rem;
+    transition: border .1s ease,opacity .1s ease,transform .1s ease,box-shadow .1s ease;
+    border: 1px solid #d4d4d5;
+}
+.ui.checkbox input.hidden+label {
+    cursor: pointer;
+    right: 14px;
+    -webkit-user-select: none;
+    user-select: none;
+}

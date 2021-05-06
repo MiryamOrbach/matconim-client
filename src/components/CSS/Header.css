@@ -1,0 +1,21 @@
+.ui.menu:not(.vertical) .item {
+  display: flex;
+  align-items: center;
+  width: 127px;
+}
+.ui.teal.button,
+.ui.teal.buttons .button {
+  background-color: #a333c8;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+element.style {
+  width: 202px;
+  height: 94px;
+  margin-right: 11vw;
+}
+.menueText {
+  cursor: pointer;
+  color: #4183c4;
+}

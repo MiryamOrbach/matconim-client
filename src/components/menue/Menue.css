@@ -1,0 +1,9 @@
+.wrapper {
+  columns: 2;
+}
+.ul {
+  background-color: orange;
+  -webkit-column-break-inside: avoid; /* old name */
+  page-break-inside: avoid; /* Firefox uses non-standard property */
+  break-inside: avoid;
+}
